@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+
+:root{
+--saphir: hsla(204, 56%, 31%, 1);
+--bleu: hsla(181, 49%, 43%, 1);
+--aqua: hsla(154, 53%, 57%, 1);
+--vert: hsla(134, 75%, 72%, 1);
+--the: hsla(126, 81%, 88%, 1);
+
+}
+p{
+		font-size: 12px;
+	}
+
+
+body{font-family: 'Yusei Magic', sans-serif;
+    background-color: var(--vert);
+    color: black;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+form {
+	font-size: 15px;
+}
+
+input { background-color: var(--the);
+		border-radius: 5px;
+		border-color: var(--aqua);
+		border-width: 2px 2px 2px 2px;
+}
+input:focus {background-color: var(--aqua);}
+
+}
+#logotitre{width: 100%
+			height:120px;
+			
+			
+			}
+
+#imagelogo{
+	width:65px;
+	height:65px;
+}
+#titremonprofil{margin-left:30%;
+margin-right: 30%;
+	text-align: center;
+	 background-color: var(--aqua);
+	 border-color: var(--saphir);
+	 border-width: 2px 2px 2px 2px;
+	 border-style: solid;
+	 border-radius: 3px;
+	 margin-bottom: 2%;
+	 
+	 
+}
+label {
+	width:40%;
+}
+#hhh{
+	color: var(--vert);
+}
+.inputbouton {
+	color:  black;
+	font-size: 22px;
+	 background: linear-gradient(0.25turn,var(--bleu), var(--vert));
+	 box-shadow: 10px 5px 5px  var(--saphir);
+	 border-color: var(--bleu);
+	 border-width: 2px 2px 2px 2px;
+	 border-style: solid;
+	 border-radius: 5px;
+	 margin-left: 3%;
+}
+.inputboutondiv{
+	border-color: var(--bleu);
+	text-align: center;
+	
+}

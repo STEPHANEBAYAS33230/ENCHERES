@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+
+:root{
+--saphir: hsla(204, 56%, 31%, 1);
+--bleu: hsla(181, 49%, 43%, 1);
+--aqua: hsla(154, 53%, 57%, 1);
+--vert: hsla(134, 75%, 72%, 1);
+--the: hsla(126, 81%, 88%, 1);
+
+}
+
+
+#bodies {font-family: 'Yusei Magic', sans-serif;
+    
+     background: linear-gradient(0.55turn,var(--aqua), var(--the),var(--vert));
+	}
+#container2{padding-top: 25px;
+	background-color: var(--bleu);
+}
+	
+#container{
+	background-color: var(--saphir);
+}
+p{color: var(--the);
+	font-size: 16px;}
+	
+	
+#logotitre{
+	width: 100%;
+	margin-top:20px;
+			height:120px;
+			color: var(--the);
+			}
+#imagelogo{
+	width:55px;
+	height:55px;
+}
+
+
+#listeenchere{
+	text-align: center;
+	 margin-bottom: 15px;
+	 margin-left: 30%;
+	 margin-right: 30%;	
+	 background-color: var(--aqua);
+	 border-color: var(--saphir);
+	 border-width: 2px 2px 2px 2px;
+	 border-style: solid;
+	 border-radius: 6px;	
+}
+
+#sinscrire{
+	text-align: right;
+	color: var(--the);
+}	
+
+#rechercher{
+	border-radius: 13px;
+}	
+			
+			
+
+.bouton{
+	background-color : var(--saphir);
+}
+
+
+
+
+
+
+h1{
+	color : var(--saphir);
+}
+
+input { background-color: var(--the);
+		
+}
+input:focus {background-color: var(--aqua);}
+
+}
+#botton {
+	 padding: 20px;
+	
+	 box-shadow: 10px 5px 5px  var(--saphir);
+	 border-color: black;
+	 border-width: 2px 2px 2px 2px;
+	 border-style: solid;
+	 border-radius: 5px;
+	 margin-left: 3%;
+}
+#bouton1{
+	color: black;
+	text-align: center;
+	font-size: 32px;
+	 background: linear-gradient(0.25turn,var(--bleu), var(--vert));
+	 border-radius: 5px;
+}
+.encadrer {background: var(--saphir);
+	width:90%;
+	color: var(--vert);
+	
+}
+
+.imagecentre{width: 100%;
+height:100%;
+
+
+	}
+.separearticle {
+	margin: 25px;
+	padding: 15px;
+}

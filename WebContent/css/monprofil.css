@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+
+:root{
+--saphir: hsla(204, 56%, 31%, 1);
+--bleu: hsla(181, 49%, 43%, 1);
+--aqua: hsla(154, 53%, 57%, 1);
+--vert: hsla(134, 75%, 72%, 1);
+--the: hsla(126, 81%, 88%, 1);
+
+}
+
+body{
+	font-size: 19px;
+	text-align:center;
+	color : var(--the);
+	background-color: var(--bleu);
+}
+
+a:hover{text-decoration: none;}
+
+a {text-decoration: none;}
+
+.inputbouton {
+	color:  black;
+	font-size: 40px;
+	 background: linear-gradient(0.25turn,var(--bleu), var(--vert));
+	 box-shadow: 10px 5px 5px  var(--saphir);
+	 border-color: black;
+	 border-width: 2px 2px 2px 2px;
+	 border-style: solid;
+	 border-radius: 5px;
+	 margin-left: 3%;
+}
+
+.inputboutondiv{
+	border-color: var(--bleu);
+	text-align: center;
+	
+}

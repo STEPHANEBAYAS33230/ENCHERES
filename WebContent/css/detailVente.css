@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+
+:root{
+--saphir: hsla(204, 56%, 31%, 1);
+--bleu: hsla(181, 49%, 43%, 1);
+--aqua: hsla(154, 53%, 57%, 1);
+--vert: hsla(134, 75%, 72%, 1);
+--the: hsla(126, 81%, 88%, 1);
+
+}
+
+body{margin-top: 15px;
+	font-size: 15px;
+	text-align:center;
+	color : var(--the);
+	background-color: hsla(204, 56%, 31%, 1);
+	font-family: 'Yusei Magic', sans-serif;
+}
+
+#titremonprofil{
+		color: black;	 
+}
+#cadretitre{text-align: center;
+	  background: linear-gradient(0.25turn,var(--bleu), var(--vert));
+	 border-color: black;
+	 border-width: 2px 2px 2px 2px;
+	 border-style: solid;
+	 border-radius: 3px;
+	 margin-bottom: 10px;
+}
+a:hover{text-decoration: none;}
+
+a {text-decoration: none;}
+
+.inputbouton {
+	color:  black;
+	font-size: 25px;
+	 background: linear-gradient(0.25turn,var(--bleu), var(--vert));
+	 box-shadow: 10px 5px 5px  var(--bleu);
+	 border-color: var(--the);
+	 border-width: 2px 2px 2px 2px;
+	 border-style: solid;
+	 border-radius: 5px;
+	
+	 text-decoration:none;
+}
+
+.inputboutondiv{
+	border-color: var(--the);
+	text-align: center;
+	padding: 25px;
+}
+#mapropo {
+	font-size: 38px;
+}
+#inputencherir {
+	 box-shadow: 10px 5px 5px  var(--bleu);
+	 border-color: var(--the);
+	 border-width: 2px 2px 2px 2px;
+	 border-style: solid;
+	 border-radius: 5px;
+	 font-size: 38px;
+}

@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+
+:root{
+--saphir: hsla(204, 56%, 31%, 1);
+--bleu: hsla(181, 49%, 43%, 1);
+--aqua: hsla(154, 53%, 57%, 1);
+--vert: hsla(134, 75%, 72%, 1);
+--the: hsla(126, 81%, 88%, 1);
+
+}
+
+.menu{
+	text-align:right;
+	color : var(--saphir);
+}
+
+.bouton-menu{
+	font-size:x-small;
+	text-align: center;
+	 background: linear-gradient(0.25turn,var(--bleu), var(--vert));
+	 border-radius: 5px;
+}
+
+
+
+.imagecentre{width: 100%;
+height:100%;
+
+
+	}
+.separearticle {
+	margin: 25px;
+	padding: 15px;
+}
+
+#bouton1{
+	color: black;
+	font-size: 32px;
+	
+	text-align: center;
+	 background: linear-gradient(0.25turn,var(--bleu), var(--vert));
+	 border-radius: 5px;
+}
+
+body{
+    background-color: var(--the);
+	text-align:center;
+	color : var(--the);
+}
+
+.gros_bouton{
+	
+	padding:5px;
+	font-size:large;
+	background-color: var(--saphir);
+	border: 1px solid black; 
+	border-radius: 5px;
+font-weight: bold;
+text-align: center;
+	}
+	
+	#rechercher{
+	border-radius: 13px;
+	background-color: var(--the);
+	color : var(--saphir);
+	margin-bottom: 20px;
+}	
+	
+	
+#container{
+	background-color: var(--saphir);
+}
+	
+	
+#container2{padding-top: 25px;
+	background-color: var(--bleu);
+}
+
+#bodies {font-family: 'Yusei Magic', sans-serif;
+    
+     background: linear-gradient(0.55turn,var(--aqua), var(--the),var(--vert));
+	}
+	
+.message-co {
+
+	text-align: right;
+	font-size: x-small;
+
+	}
+
+#listeenchere{
+	text-align: center;
+	margin-top 15px;
+	 margin-bottom: 15px;
+	 margin-left: 30%;
+	 margin-right: 30%;	
+	 background-color: var(--aqua);
+	 border-color: var(--saphir);
+	 border-width: 2px 2px 2px 2px;
+	 border-style: solid;
+	 border-radius: 6px;	
+	 font-size: xx-large;
+	 
+}
+
+	
+	#cat{
+	font-weight: bold;
+	margin-bottom:20px;
+}	
+	#categorie{
+	background-color: var(--the);
+	color : var(--saphir);
+}	
+	
+.bt-radio{
+    background-color: hsla(204, 56%, 31%, 0.5);
+    border: 1px solid black; 
+	border-radius: 5px;
+	text-align:left;
+	color : var(--the);
+	padding: 20px;
+	margin-bottom: 20 px;
+	margin-left: 20px;
+	margin-right:20px;
+}
+
+	
+.bouton{
+	background-color : var(--saphir);
+}
+
+.filtres  {
+	background-color: var(--bleu);
+	border: 1px solid black; 
+	border-radius: 5px;
+    width: 40em;
+}
+
+
+
+.encadrer {
+	background-color: var(--saphir);
+	border: 1px solid black; 
+	border-radius: 5px;
+	padding-right:100px;  
+    width: 80%;
+}
+
+h1{
+	color : var(--saphir);
+}
+
+h2{
+	color : var(--the);
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 40px
+}

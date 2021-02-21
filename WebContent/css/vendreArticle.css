@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+
+:root{
+--saphir: hsla(204, 56%, 31%, 1);
+--bleu: hsla(181, 49%, 43%, 1);
+--aqua: hsla(154, 53%, 57%, 1);
+--vert: hsla(134, 75%, 72%, 1);
+--the: hsla(126, 81%, 88%, 1);
+
+}
+
+body{
+    background-color: var(--the);
+	text-align:center;
+	color : var(--saphir);
+}
+
+.encadrer {
+	background-color: var(--saphir);
+	border: 1px solid black; 
+	border-radius: 5px;
+ margin-left: auto;
+    margin-right: auto;
+    width: 40em;
+}
+
+.bouton{
+	background-color : var(--saphir);
+}
+.bleu{
+	background-color : var(--bleu);
+}
